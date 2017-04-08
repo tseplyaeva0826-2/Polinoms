@@ -1,0 +1,21 @@
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  MyApp1.cpp
+g:\project\myapp1\MyForm.h(20): error C2872: Stack: неоднозначный символ
+  g:\project\myapp1\StackOnLists.h(16): note: может быть "Stack"
+  g:\project\myapp1\MyForm.h(20): note: или       "System::Collections::Stack"
+g:\project\myapp1\MyForm.h(28): error C2872: Stack: неоднозначный символ
+  g:\project\myapp1\StackOnLists.h(16): note: может быть "Stack"
+  g:\project\myapp1\MyForm.h(28): note: или       "System::Collections::Stack"
+MyApp1.cpp(11): error C2976: std::array: слишком мало аргументов шаблон
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(363): note:  см. объявление "std::array"
+MyApp1.cpp(11): error C3699: ^: это косвенное обращение невозможно использовать для типа "std::array"
+  MyApp1.cpp(11): note: для продолжения работы компилятор заменил "^" на "*"
+  MyForm.cpp
+g:\project\myapp1\MyForm.h(20): error C2872: Stack: неоднозначный символ
+  g:\project\myapp1\StackOnLists.h(16): note: может быть "Stack"
+  g:\project\myapp1\MyForm.h(20): note: или       "System::Collections::Stack"
+g:\project\myapp1\MyForm.h(28): error C2872: Stack: неоднозначный символ
+  g:\project\myapp1\StackOnLists.h(16): note: может быть "Stack"
+  g:\project\myapp1\MyForm.h(28): note: или       "System::Collections::Stack"
+  Создание кода...

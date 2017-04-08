@@ -1,0 +1,34 @@
+﻿Сборка начата 09.04.2017 0:01:02.
+     1>Проект "G:\work\MyAppUrok54\MyApp1.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (MyApp1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         G:\VS13\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\MyApp1NEW.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /errorReport:prompt /clr:nostdlib MyApp1.cpp MyForm.cpp
+         MyApp1.cpp
+     1>g:\work\myappurok54\MyForm.h(109): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(116): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(159): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(234): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(241): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(284): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>MyApp1.cpp(10): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+         MyForm.cpp
+     1>g:\work\myappurok54\MyForm.h(109): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(116): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(159): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(234): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(241): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>g:\work\myappurok54\MyForm.h(284): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         Создание кода...
+       Link:
+         G:\VS13\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\work\MyAppUrok54\x64\Debug\MyApp1NEW.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:x64\Debug\MyApp1.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\work\MyAppUrok54\x64\Debug\MyApp1NEW.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\MyApp1.obj
+         x64\Debug\MyForm.obj
+         x64\Debug\stdafx.obj
+         "x64\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         MyApp1.vcxproj -> G:\work\MyAppUrok54\x64\Debug\MyApp1NEW.exe
+     1>Сборка проекта "G:\work\MyAppUrok54\MyApp1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.57
